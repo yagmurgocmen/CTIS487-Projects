@@ -31,5 +31,4 @@ secrets.properties
 
 # ---- Logs ----
 *.log
-
-
+.env
