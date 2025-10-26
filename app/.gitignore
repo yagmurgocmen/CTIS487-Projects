@@ -1,0 +1,51 @@
+# ---- Android & Gradle outputs (asla commitlenmez) ----
+*.iml
+.gradle/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+captures/
+
+# ---- IDE (Android Studio / IntelliJ) ----
+# Tüm .idea'yı dışarıda tutmak en güvenlisi
+# (Paylaşmak istediğin özel kod stilin varsa .idea/codeStyles/ altını hariç tutabilirsin)
+.idea/
+!.idea/codeStyles/
+!.idea/codeStyles/Project.xml
+
+# ---- OS geçici dosyaları ----
+.DS_Store
+Thumbs.db
+
+# ---- Yerel makineye özel ayarlar ----
+local.properties
+
+# ---- NDK / CMake geçicileri ----
+**/cmake-build-*/
+
+# ---- Paketler ve artefaktlar ----
+*.apk
+*.aab
+*.ap_
+*.ipa
+
+# ---- Loglar ----
+*.log
+
+# ---- Keystore ve gizli dosyalar (asla repo'ya koyma) ----
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+*.keystore.properties
+keystore.properties
+*.env
+*.secret
+secrets.properties
+
+# ---- IntelliJ/Gradle Wrapper dahil edilmesi GEREKEN dosyalar ----
+# NOT: Aşağıdakiler .gitignore'da değil, bilgi amaçlı:
+#  - gradlew, gradlew.bat  -> commit ET
+#  - gradle/wrapper/*      -> commit ET (wrapper jar ve properties)
+#  - app/src/**            -> commit ET (kaynak kod)

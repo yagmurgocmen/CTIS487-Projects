@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#ABEBC6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textViewVideoGames"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:text="@string/txt_textView_title"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp" android:textStyle="bold|italic" />
+    <RadioGroup android:id="@+id/radioGroup" android:layout_width="match_parent" android:layout_height="140dp">
+        <RadioButton android:id="@+id/radioButtonFortnite"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/txt_title_radio_button_fortnite" android:textSize="20sp"
+            android:checked="true" android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLegend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_title_radio_button_legends"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMinecraft" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/txt_title_radio_button_minecraft" android:textSize="20sp"
+            android:textStyle="bold"/> </RadioGroup>
+    <ImageView
+        android:id="@+id/gameImageView" android:layout_width="match_parent" android:layout_height="180dp" app:srcCompat="@drawable/fortnite" />
+    <EditText
+        android:id="@+id/editTextName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:ems="10" android:hint="@string/txt_hint_name" android:inputType="textPersonName" android:minHeight="48dp" />
+    <EditText
+        android:id="@+id/editTextPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="@string/txt_hint_password" android:inputType="textPassword" android:minHeight="48dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="?android:attr/starStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_title_checkbox" />
+    <SeekBar android:id="@+id/seekBar"
+        android:layout_width="match_parent" android:layout_height="50dp" android:max="10" android:progress="1"
+        android:progressDrawable="@drawable/custom_progress" /> </LinearLayout>

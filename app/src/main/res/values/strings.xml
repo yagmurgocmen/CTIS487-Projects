@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LabGuide3_Sol</string>
+    <string name="txt_textView_title">Video Games</string>
+    <string name="txt_title_radio_button_fortnite">Fortnite</string>
+    <string name="txt_title_radio_button_legends">League of Legends</string>
+    <string name="txt_title_radio_button_minecraft">Minecraft</string>
+    <string name="txt_title_checkbox">Favorite</string>
+    <string name="txt_hint_name">Name</string>
+    <string name="txt_hint_password">Password</string>
+</resources>
