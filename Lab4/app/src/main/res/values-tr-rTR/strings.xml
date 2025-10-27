@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabGuide4</string>
+    <string name="txtParty">Parti Malzemeleri</string>
+    <string name="img1Des">Marakas</string>
+    <string name="img2Des">Güneş</string>
+    <string name="img3Des">Şapka</string>
+    <string name="btnChange">Arka Plan Rengini Değiştir</string>
+
+    <string name="cardtitle">LABGUIDE4 KART ÖRNEĞİ</string>
+    <string name="cardBody">Bu kartın gövde kısmıdır</string>
+    <string name="fabDesc">Kayan Düğme</string>
+
+    <!-- Dialog and Toast Messages -->
+    <string name="dialog_party_type_title">Parti Türü</string>
+    <string name="dialog_you_have">%s seçtiniz</string>
+    <string name="dialog_close">Kapat</string>
+    <string name="toast_fab_clicked">Kayan aksiyon butonuna tıklandı.</string>
+
+    <!-- Language Button -->
+    <string name="btn_language">🌐 EN</string>
+    <string name="toast_language_changed">Language Changed to English</string>
+</resources>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="partyType">
+        <item>Party Types</item>
+        <item>Birthday Party</item>
+        <item>Graduation Party</item>
+        <item>Anniversary Party</item>
+    </array>
+</resources>

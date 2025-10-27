@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/txtParty"
+            android:textColor="#748B97"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@string/btn_language"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="184dp"
+            android:layout_height="185dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/img1Des"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_maracas" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="188dp"
+            android:layout_height="176dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/img2Des"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_sun" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="185dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/img3Des"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_hat" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnBackGround"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btnChange"
+        android:textColor="#001F00"
+        android:textSize="@dimen/textSize" />
+
+    <Spinner
+        android:id="@+id/spinType"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:entries="@array/partyType" />
+
+    <LinearLayout
+        android:layout_width="421dp"
+        android:layout_height="91dp"
+        >
+
+        <Button
+            android:id="@+id/arrow_left"
+            android:layout_width="126dp"
+            android:layout_height="81dp"
+            android:layout_marginBottom="4dp"
+            android:text="\u003C"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <Button
+            android:id="@+id/arrow_right"
+            android:layout_width="126dp"
+            android:layout_height="81dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="10dp"
+            android:text="\u003E" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="@color/teal_700"
+        android:contentDescription="@string/fabDesc"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/ic_plus_24"/>
+
+</LinearLayout>
+

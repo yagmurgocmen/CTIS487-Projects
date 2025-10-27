@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="partyType">
+        <item>Parti Türleri</item>
+        <item>Doğum Günü Partisi</item>
+        <item>Mezuniyet Partisi</item>
+        <item>Yıldönümü Partisi</item>
+    </array>
+</resources>
+

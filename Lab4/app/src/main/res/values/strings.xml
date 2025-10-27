@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LabGuide4</string>
+    <string name="txtParty">Party Equipments</string>
+    <string name="img1Des">Maracas</string>
+    <string name="img2Des">Sun</string>
+    <string name="img3Des">Hat</string>
+    <string name="btnChange">Change BackGround Color</string>
+
+    <string name="cardtitle">LABGUIDE4 CARD EXAMPLE</string>
+    <string name="cardBody">This is the body part of the card</string>
+    <string name="fabDesc">Floating Button</string>
+    
+    <!-- Dialog and Toast Messages -->
+    <string name="dialog_party_type_title">Party Type</string>
+    <string name="dialog_you_have">You have %s</string>
+    <string name="dialog_close">Close</string>
+    <string name="toast_fab_clicked">Floating action button clicked.</string>
+    
+    <!-- Language Button -->
+    <string name="btn_language">🌐 TR</string>
+    <string name="toast_language_changed">Dil Türkçe olarak değiştirildi</string>
+</resources>
